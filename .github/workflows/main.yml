@@ -32,4 +32,4 @@ jobs:
           java-version: 11
           
       - name: Run test
-        run: mvn surfire
+        run: mvn test
