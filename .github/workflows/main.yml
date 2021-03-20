@@ -28,6 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Set up java
         uses: actions/setup-java@1
+        with: 
           java-version: '11.0.5'
           java-package: jdk
           architecture: x64
